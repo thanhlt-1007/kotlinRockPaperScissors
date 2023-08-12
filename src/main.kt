@@ -1,3 +1,3 @@
 fun main() {
-  println("Hello World")
+  val options = arrayOf("Rock", "Paper", "Scissors")
 }
