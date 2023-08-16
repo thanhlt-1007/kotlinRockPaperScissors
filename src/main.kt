@@ -1,6 +1,7 @@
 fun main() {
   val options = arrayOf("Rock", "Paper", "Scissors")
   val gameChoice = getGameChoice(options)
+  getUserChoice(options)
 }
 
 fun getGameChoice(optionsParam: Array<String>) : String {
@@ -15,4 +16,7 @@ fun getUserChoice(optionsParam: Array<String>) {
     println("$item")
   }
   println(".")
+
+  // Read the user input
+  val userInput = readLine()
 }
